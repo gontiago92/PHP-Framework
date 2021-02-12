@@ -1,0 +1,17 @@
+{
+    "name": "gtprojets/mon-framework",
+    "authors": [
+        {
+            "name": "Tiago Gonçalves",
+            "email": "tiago.goncalves.faria@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\" : "src/Framework"
+        }
+    },
+    "config":{
+        "secure-http":false
+      }
+}
